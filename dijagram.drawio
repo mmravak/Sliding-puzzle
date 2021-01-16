@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-16T18:15:03.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="-kM8VbY8R0inYeUuZQ79" version="14.1.9" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-01-16T18:15:46.864Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="x0d_STFFJHBi0yV70a3x" version="14.1.9" type="github" pages="7">
   <diagram id="ABzNk8jfE5BGgJ8WK-yH" name="useCase Slaganje puzzle">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -278,13 +278,13 @@
         <mxCell id="PNl33qH47VXTG4CEnMWW-0" />
         <mxCell id="PNl33qH47VXTG4CEnMWW-1" parent="PNl33qH47VXTG4CEnMWW-0" />
         <mxCell id="PNl33qH47VXTG4CEnMWW-6" value="«Model»&lt;br&gt;&lt;b&gt;Pločica&lt;/b&gt;" style="html=1;" vertex="1" parent="PNl33qH47VXTG4CEnMWW-1">
-          <mxGeometry x="150" y="90" width="110" height="50" as="geometry" />
+          <mxGeometry x="140" y="90" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PNl33qH47VXTG4CEnMWW-7" value="«Model»&lt;br&gt;&lt;b&gt;Slagalica&lt;/b&gt;" style="html=1;" vertex="1" parent="PNl33qH47VXTG4CEnMWW-1">
           <mxGeometry x="370" y="90" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PNl33qH47VXTG4CEnMWW-8" value="«Model»&lt;br&gt;&lt;b&gt;Igrač&lt;/b&gt;" style="html=1;" vertex="1" parent="PNl33qH47VXTG4CEnMWW-1">
-          <mxGeometry x="150" y="250" width="110" height="50" as="geometry" />
+          <mxGeometry x="140" y="250" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PNl33qH47VXTG4CEnMWW-9" value="«Controller»&lt;br&gt;&lt;b&gt;Igra&lt;/b&gt;" style="html=1;" vertex="1" parent="PNl33qH47VXTG4CEnMWW-1">
           <mxGeometry x="370" y="250" width="110" height="50" as="geometry" />
