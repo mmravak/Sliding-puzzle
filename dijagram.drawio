@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T20:21:06.463Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="xt_v7AiviP2qLVumILYj" version="14.1.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-01-16T17:45:06.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="vXdgE2T4fUn9WV1QeZFG" version="14.1.9" type="github" pages="5">
   <diagram id="ABzNk8jfE5BGgJ8WK-yH" name="useCase Slaganje puzzle">
-    <mxGraphModel dx="440" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dOdkRukgToVbBHydu_6k" name="Activity Slaganje puzzle">
-    <mxGraphModel dx="440" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NZyExPVuPPFuQeGKFaT2-0" />
         <mxCell id="NZyExPVuPPFuQeGKFaT2-1" parent="NZyExPVuPPFuQeGKFaT2-0" />
@@ -105,25 +105,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KVRyMf5aF5UDWe_lD_bD" name="Activity Postavljanje puzzle">
-    <mxGraphModel dx="440" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6_0tBwCjn-_xRzzKIpzM-0" />
         <mxCell id="6_0tBwCjn-_xRzzKIpzM-1" parent="6_0tBwCjn-_xRzzKIpzM-0" />
         <mxCell id="6_0tBwCjn-_xRzzKIpzM-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="6_0tBwCjn-_xRzzKIpzM-1" vertex="1">
-          <mxGeometry x="270" y="73" width="30" height="30" as="geometry" />
+          <mxGeometry x="270" y="140" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6_0tBwCjn-_xRzzKIpzM-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="6_0tBwCjn-_xRzzKIpzM-1" source="6_0tBwCjn-_xRzzKIpzM-2" target="6_0tBwCjn-_xRzzKIpzM-4" edge="1">
+        <mxCell id="6_0tBwCjn-_xRzzKIpzM-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="6_0tBwCjn-_xRzzKIpzM-1" source="6_0tBwCjn-_xRzzKIpzM-2" target="6_0tBwCjn-_xRzzKIpzM-16" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="285" y="156" as="targetPoint" />
-            <mxPoint x="285" y="96" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6_0tBwCjn-_xRzzKIpzM-4" value="Igrač bira veličinu puzzle&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="6_0tBwCjn-_xRzzKIpzM-1" vertex="1">
-          <mxGeometry x="225" y="146" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="6_0tBwCjn-_xRzzKIpzM-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6_0tBwCjn-_xRzzKIpzM-1" source="6_0tBwCjn-_xRzzKIpzM-4" target="6_0tBwCjn-_xRzzKIpzM-16" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="285" y="262" as="targetPoint" />
+            <mxPoint x="285" y="183" as="targetPoint" />
+            <mxPoint x="285" y="133" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6_0tBwCjn-_xRzzKIpzM-16" value="Igra promiješa i prikaže puzzle" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="6_0tBwCjn-_xRzzKIpzM-1" vertex="1">
@@ -157,7 +149,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7SWt9OSOsTCg3pqRx_dJ" name="Activity Pomicanje pločica">
-    <mxGraphModel dx="440" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="d-bgL5WvYxpQSRYXARBZ-0" />
         <mxCell id="d-bgL5WvYxpQSRYXARBZ-1" parent="d-bgL5WvYxpQSRYXARBZ-0" />
