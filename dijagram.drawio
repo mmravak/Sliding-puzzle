@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-23T19:50:41.961Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="UZoqwskyu7ETQ7DYVV8l" version="14.2.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-01-23T19:51:17.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="mh3vY1hIbguDl-gvpORt" version="14.2.4" type="github" pages="7">
   <diagram id="ABzNk8jfE5BGgJ8WK-yH" name="useCase Slaganje puzzle">
     <mxGraphModel dx="440" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -444,7 +444,7 @@
           <mxGeometry x="285" y="335" width="170" height="250" as="geometry" />
         </mxCell>
         <mxCell id="plIG5kFlwBWhDFXeH4UB-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;View&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PrikazIgre&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+prikaziPocetakIgre()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+unesiIgraca()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+prikaziPromjesanuPuzzle()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+izaberiPlocicuZaSlaganje(plociceZaSlaganje)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+prikaziRezultat(ime, timer, br_poteza)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EUIAaFhHnVwBqWIrcHRk-1">
-          <mxGeometry x="540" y="356.63" width="260" height="176.75" as="geometry" />
+          <mxGeometry x="540" y="370" width="260" height="163.37" as="geometry" />
         </mxCell>
         <mxCell id="plIG5kFlwBWhDFXeH4UB-7" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="EUIAaFhHnVwBqWIrcHRk-1" source="plIG5kFlwBWhDFXeH4UB-1" target="_aWHQsGfWU8hoxpcVxg3-5">
           <mxGeometry x="-0.9438" y="15" relative="1" as="geometry">
@@ -466,7 +466,7 @@
         <mxCell id="plIG5kFlwBWhDFXeH4UB-10" value="-__prikaz" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="EUIAaFhHnVwBqWIrcHRk-1">
           <mxGeometry x="455" y="430" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="plIG5kFlwBWhDFXeH4UB-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.579;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="EUIAaFhHnVwBqWIrcHRk-1" source="plIG5kFlwBWhDFXeH4UB-1" target="plIG5kFlwBWhDFXeH4UB-2">
+        <mxCell id="plIG5kFlwBWhDFXeH4UB-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.545;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="EUIAaFhHnVwBqWIrcHRk-1" source="plIG5kFlwBWhDFXeH4UB-1" target="plIG5kFlwBWhDFXeH4UB-2">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="330" y="360" as="sourcePoint" />
             <mxPoint x="490" y="360" as="targetPoint" />
