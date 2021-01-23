@@ -340,6 +340,6 @@ class Igra(object):
         return ime
 
 
-##pi = PrikazIgre()
-##i = Igra()
-##i.slaganjePuzzle()
+pi = PrikazIgre()
+i = Igra()
+i.slaganjePuzzle()
