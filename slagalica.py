@@ -235,7 +235,7 @@ class PrikazIgre(object):
             
     def prikaziRezultat(self, ime, timer, br_poteza):
         rezultat = ime + '\t' + str(timer) + '\t' + str(br_poteza) + '\n'
-        return rezultat
+        print(rezultat)
     
 
 class Igra(object):
@@ -320,7 +320,7 @@ class Igra(object):
         self.prikaz.prikaziPromjesanuPuzzle(self.slagalica) #2.4
 
     def bodovanje(self):
-        self.zaustaviTimer()#3.1   
+        self.zaustaviTimer()    #3.1   
         print("\nTimer je zaustavljen.\n")
         ime = self.unosIgraca() #3.2
         self.prikaz.prikaziRezultat(ime, self.timer, self.br_poteza)    #3.3
