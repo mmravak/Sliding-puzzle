@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-23T19:51:17.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="mh3vY1hIbguDl-gvpORt" version="14.2.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-01-23T19:52:13.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="ahCO1qQRh_1GZfCPPXbj" version="14.2.4" type="github" pages="7">
   <diagram id="ABzNk8jfE5BGgJ8WK-yH" name="useCase Slaganje puzzle">
     <mxGraphModel dx="440" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -347,7 +347,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_rVgE_6fFWB3gCn9pM2O" name="dijagramKlasaSlaganjaPuzzle">
-    <mxGraphModel dx="440" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PNl33qH47VXTG4CEnMWW-0" />
         <mxCell id="PNl33qH47VXTG4CEnMWW-1" parent="PNl33qH47VXTG4CEnMWW-0" />
@@ -458,10 +458,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="plIG5kFlwBWhDFXeH4UB-8" value="-__slagalica" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="EUIAaFhHnVwBqWIrcHRk-1">
-          <mxGeometry x="405" y="310" width="80" height="20" as="geometry" />
+          <mxGeometry x="380" y="310" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="plIG5kFlwBWhDFXeH4UB-9" value="-__igrac" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="EUIAaFhHnVwBqWIrcHRk-1">
-          <mxGeometry x="230" y="430" width="60" height="20" as="geometry" />
+          <mxGeometry x="227" y="430" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="plIG5kFlwBWhDFXeH4UB-10" value="-__prikaz" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="EUIAaFhHnVwBqWIrcHRk-1">
           <mxGeometry x="455" y="430" width="60" height="20" as="geometry" />
