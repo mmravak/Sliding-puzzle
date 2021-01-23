@@ -234,7 +234,7 @@ class PrikazIgre(object):
                 return int(izbor) - 1
             
     def prikaziRezultat(self, ime, timer, br_poteza):
-        rezultat = ime + '\t' + str(timer) + '\t' + str(br_poteza) + '\n'
+        rezultat = ime + '\t' + str(timer) + '\t' + str(br_poteza)
         print(rezultat)
     
 
@@ -340,6 +340,6 @@ class Igra(object):
         return ime
 
 
-pi = PrikazIgre()
-i = Igra()
-i.slaganjePuzzle()
+##pi = PrikazIgre()
+##i = Igra()
+##i.slaganjePuzzle()
