@@ -125,9 +125,8 @@ class Slagalica(object):
                     
         brojevi[brojevi.index(16)] = ''
         
-        if (brojevi.index('')+1) %2 == 0 and invCount % 2 == 0:
+        if (brojevi.index('')+1) % 2 == 0 and invCount % 2 == 0:
             return False
-        
         return True
 
     def dajPlocice(self, broj_plocica = 1):
