@@ -205,6 +205,9 @@ class Igrac(object):
 
 
 class PrikazIgre(object):
+
+    def __init__(self):
+        pass
     
     def prikaziPocetakIgre(self):
         print("*" * 50)
@@ -239,7 +242,7 @@ class PrikazIgre(object):
 class Igra(object):
 
     def __init__(self, prikaz = None):
-        self.__prikaz = PrikazIgre()
+        self.__prikaz = prikaz
         self.__slagalica = Slagalica()
         self.__igrac = Igrac()
         self.__br_poteza = 0
