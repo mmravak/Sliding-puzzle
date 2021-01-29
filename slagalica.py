@@ -292,6 +292,7 @@ class Igra(object):
         plocica = self.igrac.uzmiPlocicu(self.igrac.plociceZaSlaganje[izbor])
 
         prazna = None
+        
         for p in self.slagalica.plocice:
             if p.broj == '':
                 prazna = p
