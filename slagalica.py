@@ -222,7 +222,6 @@ class PrikazIgre(object):
             
     def prikaziPromjesanuPuzzle(self, slagalica):
         print(slagalica)
-        return str(slagalica)
     
     def izaberiPlocicuZaSlaganje(self, plociceZaSlaganje):
 
@@ -293,9 +292,6 @@ class Igra(object):
 
         plocica = self.igrac.uzmiPlocicu(self.igrac.plociceZaSlaganje[izbor])
 
-        tp1 = 0
-        tp2 = 0
-
         prazna = None
         for p in self.slagalica.plocice:
             if p.broj == '':
@@ -305,14 +301,10 @@ class Igra(object):
         ind1 = self.slagalica.plocice.index(prazna)
         ind2 = self.slagalica.plocice.index(plocica)
         
-        for p in self.slagalica.plocice:
-            if p.broj == plocica.broj:
-                tp2 = p.trenutna_pozicija
-                
-        self.slagalica.plocice[ind1] = Plocica(plocica.broj, tp1)
+        self.slagalica.plocice[ind1] = Plocica(plocica.broj, ind1+1)
         self.slagalica.plocice[ind1].naziv = plocica.naziv
 
-        self.slagalica.plocice[ind2] = Plocica('', tp2)
+        self.slagalica.plocice[ind2] = Plocica('', ind2+1)
         self.slagalica.plocice[ind2].naziv = 'prazno'   #2.2
 
         self.br_poteza += 1     #2.3
