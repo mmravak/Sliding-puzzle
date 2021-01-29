@@ -331,7 +331,9 @@ class Igra(object):
         ime = self.prikaz.unesiIgraca()
         return ime
 
+def main():
+    prikaz = PrikazIgre()
+    igra = Igra(prikaz)
+    igra.slaganjePuzzle()
 
-pi = PrikazIgre()
-i = Igra()
-i.slaganjePuzzle()
+main()
