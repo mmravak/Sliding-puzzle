@@ -197,10 +197,7 @@ class Igrac(object):
         self.__plociceZaSlaganje = plocice
         
     def uzmiPlocicu(self, izbor):
-        plocica = None
-        for p in self.__plociceZaSlaganje:
-            if p.broj == izbor.broj:
-                plocica = p
+        plocica = self.plociceZaSlaganje[izbor]
         return plocica
 
 
@@ -289,26 +286,15 @@ class Igra(object):
 
     def pomakniPlocice(self):
 
-        self.igrac.uzmiPlociceZaSlaganje(self.slagalica.dajPlocice())   #2.1
-        izbor = self.prikaz.izaberiPlocicuZaSlaganje(self.igrac.plociceZaSlaganje)
-
-        plocica = self.igrac.uzmiPlocicu(self.igrac.plociceZaSlaganje[izbor])
-
-        prazna = None
+        plocice = self.slagalica.dajPlocice()
+        self.igrac.uzmiPlociceZaSlaganje(plocice)   #2.1
         
-        for p in self.slagalica.plocice:
-            if p.broj == '':
-                prazna = p
-                tp1 = p.trenutna_pozicija
-                
-        ind1 = self.slagalica.plocice.index(prazna)
-        ind2 = self.slagalica.plocice.index(plocica)
-        
-        self.slagalica.plocice[ind1] = Plocica(plocica.broj, ind1+1)
-        self.slagalica.plocice[ind1].naziv = plocica.naziv
+        izbor = self.prikaz.izaberiPlocicuZaSlaganje(plocice)
 
-        self.slagalica.plocice[ind2] = Plocica('', ind2+1)
-        self.slagalica.plocice[ind2].naziv = 'prazno'   #2.2
+        plocica = self.igrac.uzmiPlocicu(izbor)
+        #plocica = plocice[izbor]
+
+        self.postaviNaPrazno(plocica)   #2.2
 
         self.br_poteza += 1     #2.3
             
@@ -319,6 +305,22 @@ class Igra(object):
         print("\nTimer je zaustavljen.\n")
         ime = self.unosIgraca() #3.2
         self.prikaz.prikaziRezultat(ime, self.timer, self.br_poteza)    #3.3
+
+    def postaviNaPrazno(self, plocica):
+        prazna = None
+        
+        for p in self.slagalica.plocice:
+            if p.broj == '':
+                prazna = p
+                
+        ind1 = self.slagalica.plocice.index(prazna)
+        ind2 = self.slagalica.plocice.index(plocica)
+        
+        self.slagalica.plocice[ind1] = Plocica(plocica.broj, ind1+1)
+        self.slagalica.plocice[ind1].naziv = plocica.naziv
+
+        self.slagalica.plocice[ind2] = Plocica('', ind2+1)
+        self.slagalica.plocice[ind2].naziv = 'prazno'
 
     def zaustaviTimer(self):
         sekunde = round(time.time()-self.timer, 2)
