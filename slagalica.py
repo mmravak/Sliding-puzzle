@@ -129,7 +129,7 @@ class Slagalica(object):
             return False
         return True
 
-    def dajPlocice(self, broj_plocica = 1):
+    def dajPlocice(self):
         danePlocice = []
 
         prazna = None
@@ -301,12 +301,14 @@ class Igra(object):
         self.prikaz.prikaziPromjesanuPuzzle(self.slagalica) #2.4
 
     def bodovanje(self):
+        
         self.zaustaviTimer()    #3.1   
         print("\nTimer je zaustavljen.\n")
         ime = self.unosIgraca() #3.2
         self.prikaz.prikaziRezultat(ime, self.timer, self.br_poteza)    #3.3
 
     def postaviNaPrazno(self, plocica):
+        
         prazna = None
         
         for p in self.slagalica.plocice:
@@ -323,6 +325,7 @@ class Igra(object):
         self.slagalica.plocice[ind2].naziv = 'prazno'
 
     def zaustaviTimer(self):
+        
         sekunde = round(time.time()-self.timer, 2)
         if sekunde > 60:
             minute = int(sekunde//60)
