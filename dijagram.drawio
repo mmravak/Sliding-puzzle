@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T19:53:42.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="RZLZGZIl-g57a_AWd7o6" version="14.2.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-01-30T19:54:27.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="4OvOGmkcyb-N3N9P41Ej" version="14.2.7" type="github" pages="9">
   <diagram id="ABzNk8jfE5BGgJ8WK-yH" name="useCase Slaganje puzzle">
     <mxGraphModel dx="391" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -584,7 +584,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="ZAD5H-K0oJy5tLFbGYsw" name="Page-9">
+  <diagram id="ZAD5H-K0oJy5tLFbGYsw" name="dijagramSlijedaPostavljanjePuzzle">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6s7lZs9mnIlIbPNrNpME-0" />
