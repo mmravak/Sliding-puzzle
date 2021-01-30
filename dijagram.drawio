@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T19:52:18.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="ag770B4C5Q2C-TyhCPir" version="14.2.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-01-30T19:52:29.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="KNm-4OVD45dDtACIKiPZ" version="14.2.7" type="github" pages="9">
   <diagram id="ABzNk8jfE5BGgJ8WK-yH" name="useCase Slaganje puzzle">
     <mxGraphModel dx="391" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -590,7 +590,7 @@
         <mxCell id="6s7lZs9mnIlIbPNrNpME-0" />
         <mxCell id="6s7lZs9mnIlIbPNrNpME-1" parent="6s7lZs9mnIlIbPNrNpME-0" />
         <mxCell id="GdAmHt-sCHL8pTzKniNX-0" value="main" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="6s7lZs9mnIlIbPNrNpME-1">
-          <mxGeometry x="60" y="40" width="100" height="630" as="geometry" />
+          <mxGeometry x="60" y="40" width="100" height="640" as="geometry" />
         </mxCell>
         <mxCell id="GdAmHt-sCHL8pTzKniNX-1" value="prikaz : PrikazIgre" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="6s7lZs9mnIlIbPNrNpME-1">
           <mxGeometry x="710" y="40" width="100" height="640" as="geometry" />
