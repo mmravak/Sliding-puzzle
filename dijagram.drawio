@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T19:52:29.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="KNm-4OVD45dDtACIKiPZ" version="14.2.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-01-30T19:53:42.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="RZLZGZIl-g57a_AWd7o6" version="14.2.7" type="github" pages="9">
   <diagram id="ABzNk8jfE5BGgJ8WK-yH" name="useCase Slaganje puzzle">
     <mxGraphModel dx="391" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -590,22 +590,22 @@
         <mxCell id="6s7lZs9mnIlIbPNrNpME-0" />
         <mxCell id="6s7lZs9mnIlIbPNrNpME-1" parent="6s7lZs9mnIlIbPNrNpME-0" />
         <mxCell id="GdAmHt-sCHL8pTzKniNX-0" value="main" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="6s7lZs9mnIlIbPNrNpME-1">
-          <mxGeometry x="60" y="40" width="100" height="640" as="geometry" />
+          <mxGeometry x="60" y="40" width="100" height="680" as="geometry" />
         </mxCell>
         <mxCell id="GdAmHt-sCHL8pTzKniNX-1" value="prikaz : PrikazIgre" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="6s7lZs9mnIlIbPNrNpME-1">
-          <mxGeometry x="710" y="40" width="100" height="640" as="geometry" />
+          <mxGeometry x="710" y="40" width="100" height="680" as="geometry" />
         </mxCell>
         <mxCell id="juY_irDcL3SwGXr37tJG-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;" vertex="1" parent="GdAmHt-sCHL8pTzKniNX-1">
-          <mxGeometry x="45" y="590" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="606" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GdAmHt-sCHL8pTzKniNX-3" value="igra : Igra" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="6s7lZs9mnIlIbPNrNpME-1">
-          <mxGeometry x="210" y="40" width="100" height="640" as="geometry" />
+          <mxGeometry x="210" y="40" width="100" height="680" as="geometry" />
         </mxCell>
         <mxCell id="GdAmHt-sCHL8pTzKniNX-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="GdAmHt-sCHL8pTzKniNX-3">
           <mxGeometry x="45" y="100" width="10" height="520" as="geometry" />
         </mxCell>
         <mxCell id="GdAmHt-sCHL8pTzKniNX-5" value=": Slagalica" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="6s7lZs9mnIlIbPNrNpME-1">
-          <mxGeometry x="364" y="40" width="100" height="640" as="geometry" />
+          <mxGeometry x="364" y="40" width="100" height="680" as="geometry" />
         </mxCell>
         <mxCell id="GdAmHt-sCHL8pTzKniNX-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="GdAmHt-sCHL8pTzKniNX-5">
           <mxGeometry x="45" y="120" width="10" height="450" as="geometry" />
@@ -698,11 +698,13 @@
         <mxCell id="juY_irDcL3SwGXr37tJG-18" value="[slagalica nije rjesiva:]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="6s7lZs9mnIlIbPNrNpME-1">
           <mxGeometry x="364" y="480" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="juY_irDcL3SwGXr37tJG-20" value="7 :&amp;nbsp;prikaziPromjesanuPuzzle(slagalica)" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;strokeWidth=1;startFill=0;" edge="1" target="juY_irDcL3SwGXr37tJG-19" parent="6s7lZs9mnIlIbPNrNpME-1" source="GdAmHt-sCHL8pTzKniNX-12">
+        <mxCell id="juY_irDcL3SwGXr37tJG-20" value="7 :&amp;nbsp;prikaziPromjesanuPuzzle(slagalica)" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;strokeWidth=1;startFill=0;" edge="1" target="juY_irDcL3SwGXr37tJG-19" parent="6s7lZs9mnIlIbPNrNpME-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="620" as="sourcePoint" />
+            <mxPoint x="265" y="646" as="sourcePoint" />
+            <mxPoint x="755" y="646" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="660" y="630" />
+              <mxPoint x="660" y="646" />
+              <mxPoint x="700" y="646" />
             </Array>
           </mxGeometry>
         </mxCell>
