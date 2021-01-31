@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T14:10:19.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="48GGI0xH0EeNMGrU20RX" version="14.2.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-01-31T14:10:36.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="Gzi5EWQuCHQhIfYXRDnW" version="14.2.9" type="github" pages="11">
   <diagram id="ABzNk8jfE5BGgJ8WK-yH" name="useCase Slaganje puzzle">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -832,7 +832,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="booOr61fhEweAK_wYyPb-0" value="&lt;div&gt;&lt;span&gt;broj_poteza se povećava za 1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#ffffff;glass=0;shadow=1;" vertex="1" parent="RS_hoSWshrSTaZYGHtVj-1">
-          <mxGeometry x="290" y="510" width="110" height="40" as="geometry" />
+          <mxGeometry x="300" y="510" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Lw7ioIMhTsTcFyM-Quc1-0" value="5" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="RS_hoSWshrSTaZYGHtVj-1" target="U-DEffGc2A6J6a2BA1MX-19">
           <mxGeometry width="80" relative="1" as="geometry">
