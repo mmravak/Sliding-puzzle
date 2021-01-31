@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T14:07:24.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="lU3HSBH3DiUkTyE6hMj4" version="14.2.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-01-31T14:08:16.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="ltxyvJqCKDloQkfMr4ea" version="14.2.9" type="github" pages="11">
   <diagram id="ABzNk8jfE5BGgJ8WK-yH" name="useCase Slaganje puzzle">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -913,6 +913,9 @@
         <mxCell id="1dd-W_WhxQ25Z5CIqCqn-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3RTBPw1HpHBs7jY0oR7I-0">
           <mxGeometry x="45" y="350" width="10" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="1dd-W_WhxQ25Z5CIqCqn-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3RTBPw1HpHBs7jY0oR7I-0">
+          <mxGeometry x="45" y="460" width="10" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="1dd-W_WhxQ25Z5CIqCqn-1" value="1 : bodovanje()" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;startFill=0;" edge="1" target="1dd-W_WhxQ25Z5CIqCqn-0" parent="KmDfsgh-sOusFk2OjAlm-1" source="08VGUNa7pCgv-xzMRuZ6-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="392" y="160" as="sourcePoint" />
@@ -930,6 +933,11 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="201" y="450" as="sourcePoint" />
             <mxPoint x="600" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1dd-W_WhxQ25Z5CIqCqn-18" value="6 : prikaziRezultat()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="1dd-W_WhxQ25Z5CIqCqn-17" parent="KmDfsgh-sOusFk2OjAlm-1" source="08VGUNa7pCgv-xzMRuZ6-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="520" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
