@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T14:11:24.470Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="smCzRBLxambHbq9DyTHa" version="14.2.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-02-14T15:43:52.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="HMUOnqptYzD-N80AFthS" version="14.2.9" type="github" pages="11">
   <diagram id="ABzNk8jfE5BGgJ8WK-yH" name="useCase Slaganje puzzle">
-    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -347,7 +347,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_rVgE_6fFWB3gCn9pM2O" name="dijagramKlasaSlaganjaPuzzle">
-    <mxGraphModel dx="391" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PNl33qH47VXTG4CEnMWW-0" />
         <mxCell id="PNl33qH47VXTG4CEnMWW-1" parent="PNl33qH47VXTG4CEnMWW-0" />
@@ -401,7 +401,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dR5bIftsn9j_wCfHi5_Q" name="dijagramKlasaModelPogledKontroler">
-    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="EUIAaFhHnVwBqWIrcHRk-0" />
         <mxCell id="EUIAaFhHnVwBqWIrcHRk-1" parent="EUIAaFhHnVwBqWIrcHRk-0" />
@@ -427,7 +427,7 @@
         <mxCell id="_aWHQsGfWU8hoxpcVxg3-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;Model&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Igrač&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+__init__()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;lt;&amp;lt;get, set&amp;gt;&amp;gt;+plociceZaSlaganje()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+uzmiPlociceZaSlaganje(plocice&lt;span&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+uzmiPlocicu(izbor)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="EUIAaFhHnVwBqWIrcHRk-1" vertex="1">
           <mxGeometry x="26" y="400" width="190" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="_aWHQsGfWU8hoxpcVxg3-13" value="+__plociceZaSlaganje" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="EUIAaFhHnVwBqWIrcHRk-1" vertex="1">
+        <mxCell id="_aWHQsGfWU8hoxpcVxg3-13" value="-__plociceZaSlaganje" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="EUIAaFhHnVwBqWIrcHRk-1" vertex="1">
           <mxGeometry x="11" y="362" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_aWHQsGfWU8hoxpcVxg3-14" value="0..15" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="EUIAaFhHnVwBqWIrcHRk-1" vertex="1">
