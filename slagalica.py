@@ -281,7 +281,7 @@ class Igra(object):
         self.prikaz.prikaziPocetakIgre()    #0
         self.postaviPuzzle()    #1
         
-        while self.slagalica.jeSlozena() == False:
+        while self.slagalica.jeSlozena() == False: 
             self.pomakniPlocice()   #2  (#2.3)
         
         self.bodovanje()    #3
