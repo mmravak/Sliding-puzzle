@@ -314,7 +314,7 @@ class Igra(object):
         
         self.zaustaviTimer()    #3.1   
         print("\nTimer je zaustavljen.\n")
-        ime = self.unosIgraca() #3.2
+        self.unosIgraca() #3.2
         self.prikaz.prikaziRezultat(self.igrac.ime, self.timer, self.br_poteza)    #3.3
 
     def postaviNaPrazno(self, plocica):
@@ -348,7 +348,6 @@ class Igra(object):
     def unosIgraca(self):
         ime = self.prikaz.unesiIgraca()
         self.igrac.ime = ime
-        return self.igrac.ime
 
 def main():
     prikaz = PrikazIgre()
