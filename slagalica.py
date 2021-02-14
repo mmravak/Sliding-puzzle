@@ -29,7 +29,7 @@ class Plocica(object):
 
     @staticmethod
     def trenutne_pozicije():
-        return list(Plocica.__trenutne_pozicije)
+        return Plocica.__trenutne_pozicije[:]
 
     def __init__(self, broj, trenutna_pozicija):
         self.__broj = broj
@@ -77,6 +77,7 @@ class Slagalica(object):
         return self.__plocice
 
     def __str__(self):
+        
         d = {}
         key = 1
         for r in range(4):
@@ -182,8 +183,17 @@ class Slagalica(object):
 
 class Igrac(object):
 
-    def __init__(self):
+    def __init__(self, ime):
+        self.__ime = ime
         self.__plociceZaSlaganje = []
+
+    @property
+    def ime(self):
+        return self.__ime
+    
+    @ime.setter
+    def ime(self, value):
+        self.__ime = value
 
     @property
     def plociceZaSlaganje(self):
@@ -241,7 +251,7 @@ class Igra(object):
     def __init__(self, prikaz = None):
         self.__prikaz = prikaz
         self.__slagalica = Slagalica()
-        self.__igrac = Igrac()
+        self.__igrac = Igrac("xx")
         self.__br_poteza = 0
         self.__timer = time.time()
 
@@ -305,7 +315,7 @@ class Igra(object):
         self.zaustaviTimer()    #3.1   
         print("\nTimer je zaustavljen.\n")
         ime = self.unosIgraca() #3.2
-        self.prikaz.prikaziRezultat(ime, self.timer, self.br_poteza)    #3.3
+        self.prikaz.prikaziRezultat(self.igrac.ime, self.timer, self.br_poteza)    #3.3
 
     def postaviNaPrazno(self, plocica):
         
@@ -337,7 +347,8 @@ class Igra(object):
     
     def unosIgraca(self):
         ime = self.prikaz.unesiIgraca()
-        return ime
+        self.igrac.ime = ime
+        return self.igrac.ime
 
 def main():
     prikaz = PrikazIgre()
