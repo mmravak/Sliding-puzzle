@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-14T17:47:24.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="CcS7F177H66BWOHlK2Uj" version="14.2.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-02-14T17:47:35.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="azyLPMQFtLxl_PAbjkTq" version="14.2.9" type="github" pages="11">
   <diagram id="ABzNk8jfE5BGgJ8WK-yH" name="useCase Slaganje puzzle">
     <mxGraphModel dx="868" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,12 +100,6 @@
         </mxCell>
         <mxCell id="NZyExPVuPPFuQeGKFaT2-17" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="NZyExPVuPPFuQeGKFaT2-1" vertex="1">
           <mxGeometry x="260" y="465" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jeB9sn5q6MrNeOQXtJGa-0" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="NZyExPVuPPFuQeGKFaT2-1" vertex="1">
-          <mxGeometry x="260" y="242" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="jeB9sn5q6MrNeOQXtJGa-1" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="NZyExPVuPPFuQeGKFaT2-1" vertex="1">
-          <mxGeometry x="260" y="242" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jeB9sn5q6MrNeOQXtJGa-2" value="&lt;div&gt;#0 Prikaži početak igre&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="NZyExPVuPPFuQeGKFaT2-1" vertex="1">
           <mxGeometry x="310" y="61" width="140" height="20" as="geometry" />
