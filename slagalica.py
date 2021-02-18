@@ -176,7 +176,7 @@ class Slagalica(object):
     
     def jeSlozena(self):
         s = Slagalica()
-        if self.__plocice == s.__plocice:
+        if str(self.__plocice) == str(s.__plocice):
             return True
         return False
 
